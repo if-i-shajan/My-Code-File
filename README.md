@@ -1,7 +1,7 @@
 # My-Code-File
 First Git Repository
 <br>
-Author - J. M. Ifthakharul Islam Shajan
+J. M. Ifthakharul Islam Shajan
 <br>
 Studies Computer Science & Engineering (CSE) at 
 <br>
