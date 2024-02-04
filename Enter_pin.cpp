@@ -5,9 +5,9 @@ int main()
 	int pin, tries;
 
 	std::cout << "Swiss Bank\n";
-  std::cout << "Enter your PIN: \n";
+  	std::cout << "Enter your PIN: \n";
 	std::cin >> pin;
-  tries++;
+  	tries++;
 
 	while (pin != 1234 && tries < 3)
 	{
