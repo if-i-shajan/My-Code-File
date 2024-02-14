@@ -16,6 +16,5 @@ int main()
         }
     }
     printf("Time over");
-
     return 0;
 }
