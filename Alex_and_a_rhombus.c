@@ -5,6 +5,5 @@ int main()
     scanf("%d", &order);
     cells = 2 * order * (order - 1) + 1;
     printf("%d\n", cells);
-
     return 0;
 }
