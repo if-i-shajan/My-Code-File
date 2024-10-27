@@ -11,6 +11,7 @@
     result = result * 10 + remainder
     a = a/10
 */
+
 #include <stdio.h>
 int main()
 {
