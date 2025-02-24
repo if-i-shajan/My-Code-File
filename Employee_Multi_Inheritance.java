@@ -1,4 +1,4 @@
-//java inheritance
+//java multi-inheritance
 class Employee {
     public String name;
     public int id;
@@ -47,7 +47,7 @@ class SeniorProgrammer extends Programmer {
     }
 }
 
-public class Employee_Inheritance {
+public class Employee_Multi_Inheritance {
     public static void main(String[] args) {
         Programmer p1 = new Programmer("Joss", 101, 500.50, "CSE", "C++");
         SeniorProgrammer p2 = new SeniorProgrammer("Steve", 102, 10000.10, "CSE", "python");
