@@ -1,4 +1,5 @@
-//java multi-inheritance
+//java multi-inheritance with array
+import java.util.ArrayList;
 class Employee {
     public String name;
     public int id;
@@ -47,11 +48,16 @@ class SeniorProgrammer extends Programmer {
     }
 }
 
-public class Employee_Multi_Inheritance {
+public class Employee_Multi_Inheritance_array {
     public static void main(String[] args) {
-        Programmer p1 = new Programmer("Joss", 101, 500.50, "CSE", "C++");
-        SeniorProgrammer p2 = new SeniorProgrammer("Steve", 102, 10000.10, "CSE", "python");
-        p1.display();
-        p2.display();
+        ArrayList<Employee> employees = new ArrayList<>();
+
+        employees.add(new Programmer("Joss", 101, 500.50, "CSE", "C++"));
+        employees.add(new SeniorProgrammer("Steve", 102, 10000.10, "CSE", "Python"));
+
+        for (Employee emp : employees) {
+            emp.display();
+            System.out.println();
+        }
     }
 }
