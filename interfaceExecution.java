@@ -23,7 +23,7 @@ class Dog implements Animal {
 	}
 }
 
-public class interfaceExecution {
+public class InterfaceExecution {
 	public static void main(String args[]) {
 		Dog d1 = new Dog();
 		d1.makeSound();

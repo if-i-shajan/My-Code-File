@@ -1,11 +1,11 @@
-public class diu {
+public class Diu {
 
     public String U_name;
     public String U_location;
     public int E_year;
     public String U_owner;
 
-    public diu(String U_name, String U_location, int E_year, String U_owner) {
+    public Diu(String U_name, String U_location, int E_year, String U_owner) {
         this.U_name = U_name;
         this.U_location = U_location;
         this.E_year = E_year;
@@ -25,7 +25,7 @@ public class diu {
     }
 
     public static void main(String args[]) {
-        diu ul = new diu("Daffodil", "Savar", 2002, "SK");
+        Diu ul = new Diu("Daffodil", "Savar", 2002, "SK");
         //ul.U_name = "UAP"; 
         ul.displayInfo();
         ul.provideAdmission();

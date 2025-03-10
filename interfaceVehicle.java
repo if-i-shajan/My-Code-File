@@ -66,7 +66,7 @@ class Bike implements Vehicle {
     }
 }
 
-public class interfaceVehicle {
+public class InterfaceVehicle {
     public static void main(String[] args) {
         Bicycle myBicycle = new Bicycle();
         myBicycle.changingGear(3);
