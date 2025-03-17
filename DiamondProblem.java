@@ -18,7 +18,7 @@ class C extends A{
 	}
 }
 
-class D extends B,C{ //This line has a error
+class D extends B,C{ //This line has an error
 	@Override 
 	void show(){
 	super.show();
